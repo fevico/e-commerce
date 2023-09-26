@@ -11,22 +11,25 @@
 			</div>
 			<!--navigation-->
 			<ul class="metismenu" id="menu">
+
+            <li>
+					<a href="{{ url('/admin/dashboard') }}">
+						<div class="parent-icon"><i class='bx bx-cookie'></i>
+						</div>
+						<div class="menu-title">Dashboard</div>
+					</a>
+				</li>
+
 				<li>
 					<a href="javascript:;" class="has-arrow">
 						<div class="parent-icon"><i class='bx bx-home-circle'></i>
 						</div>
-						<div class="menu-title">Dashboard</div>
+						<div class="menu-title">Slider Manage</div>
 					</a>
 					<ul>
-						<li> <a href="index.html"><i class="bx bx-right-arrow-alt"></i>Default</a>
+						<li> <a href="{{ route('all-slider') }}"><i class="bx bx-right-arrow-alt"></i>All Slider</a>
 						</li>
-						<li> <a href="dashboard-eCommerce.html"><i class="bx bx-right-arrow-alt"></i>eCommerce</a>
-						</li>
-						<li> <a href="dashboard-analytics.html"><i class="bx bx-right-arrow-alt"></i>Analytics</a>
-						</li>
-						<li> <a href="dashboard-digital-marketing.html"><i class="bx bx-right-arrow-alt"></i>Digital Marketing</a>
-						</li>
-						<li> <a href="dashboard-human-resources.html"><i class="bx bx-right-arrow-alt"></i>Human Resources</a>
+						<li> <a href="{{ route('add-slider') }}"><i class="bx bx-right-arrow-alt"></i>Add Slider</a>
 						</li>
 					</ul>
 				</li>
@@ -34,25 +37,17 @@
 					<a href="javascript:;" class="has-arrow">
 						<div class="parent-icon"><i class="bx bx-category"></i>
 						</div>
-						<div class="menu-title">Application</div>
+						<div class="menu-title">Category</div>
 					</a>
 					<ul>
-						<li> <a href="app-emailbox.html"><i class="bx bx-right-arrow-alt"></i>Email</a>
+						<li> <a href="app-emailbox.html"><i class="bx bx-right-arrow-alt"></i>Add Category</a>
 						</li>
-						<li> <a href="app-chat-box.html"><i class="bx bx-right-arrow-alt"></i>Chat Box</a>
-						</li>
-						<li> <a href="app-file-manager.html"><i class="bx bx-right-arrow-alt"></i>File Manager</a>
+						<li> <a href="app-chat-box.html"><i class="bx bx-right-arrow-alt"></i>All Category</a>
 						</li>
 					</ul>
 				</li>
 				<li class="menu-label">UI Elements</li>
-				<li>
-					<a href="widgets.html">
-						<div class="parent-icon"><i class='bx bx-cookie'></i>
-						</div>
-						<div class="menu-title">Widgets</div>
-					</a>
-				</li>
+			
 				<li>
 					<a href="javascript:;" class="has-arrow">
 						<div class="parent-icon"><i class='bx bx-cart'></i>
