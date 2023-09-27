@@ -43,7 +43,9 @@ Route::controller(SliderController::class)->group(function(){
 });
 
 Route::controller(CategoryController::class)->group(function(){
-    // Route::get('/slider/all', 'AllSlider')->name('all-slider');
+     Route::get('/cageogory/all', 'AllCategory')->name('all-category');
+     Route::get('/cageogory/add', 'AddCategory')->name('add.category');
+     Route::post('/cageogory/store', 'StoreCategory')->name('store.category');
 });
 
 
